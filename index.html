@@ -7,12 +7,21 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="envelope">
-    <div class="flap"></div>
+  <div class="envelope" id="envelope">
+    <div class="flap">
+      <img src="/img/pngtree-3d-graduate-student-with-hat-and-degree-png-image_12287020.png" alt="Graduation Cap" class="cap" />
+    </div>
     <div class="paper">
-      <p>Սիրելի բարեկամ,<br><br>Սա փոքրիկ նամակ է Ձեզ համար։<br>Ցանկանում եմ խաղաղություն ու սեր։</p>
+      <p>🎓 Սիրելի ուսանող,<br><br>Շնորհավորում ենք ավարտի կապակցությամբ։<br>Ցանկանում ենք հաջողություններ և նոր ձեռքբերումներ։</p>
     </div>
     <div class="base"></div>
   </div>
+
+  <script>
+    const envelope = document.getElementById("envelope");
+    envelope.addEventListener("click", () => {
+      envelope.classList.toggle("open");
+    });
+  </script>
 </body>
 </html>
