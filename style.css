@@ -116,3 +116,7 @@ body {
     /* height: 50px; */
   }
 }
+
+.time{
+  text-align: right;
+}
